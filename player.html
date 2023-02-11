@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="https://img.icons8.com/doodle/480/000000/circled-play.png" type="image/gif" sizes="16x16">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="//content.jwplatform.com/libraries/SAHhwvZq.js"></script>
+    <title>Video Player</title>
+</head>
+<body>
+    
+    <div id="myElement"></div>
+
+<script type="text/JavaScript">
+    
+    var urlParams = new URLSearchParams(window.location.search);
+      var maxprovalue=urlParams.get('maxpro');
+       
+
+
+        jwplayer("myElement").setup({
+        "file":atob(maxprovalue),
+        });
+        
+    
+    
+    
+</script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./content/css/style.css">
+    <link rel="stylesheet" href="./content/css/searchbox.css">
+    <link rel="stylesheet" href="./content/css/channels.css">
+    <link rel="stylesheet" href="./content/css/footer.css">
+    <link rel="stylesheet" href="./content/css/contact.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">      
+    <title><!------TITEL-WEBSITE--------></title>
+
+    <style>
+      
+@media only screen and (max-width: 798px) {
+ .container{
+  margin-top: 2rem !important;
+ }
+  }
+
+    </style>
+</head>
+<body>
+
+    <!--==================================NAVBAR==============================-->
+    
+    
+    <div class="header">
+        <div class="brand"><span><h3>TechMax</h3>&nbsp;<h6>LIVE</h6></span>
+            <a id=""menu" href="#"> <img id="menuimg" src="./content/img/app_logo/menu.png"> </a> </div>
+       
+       <div class="links" id="drop">
+        <a href="./index.php" class="btn  text-light" >JIO TV</a>
+        <a href="./zee5/zee5.php" class="btn  text-light">Zee5</a>
+        <a href="./sonyliv/index.php" class="btn text-light">Sony Liv</a>
+        <a href="./star7/index.php" class="btn text-light">Star7</a>
+        <a href="./voot/index.php" class="btn  text-light">Voot</a>
+        <a href="./sunnxt/index.html" class="btn  text-light">SUN-NXT</a>
+        <a href="./MXPLAYER/mxtv.html" class="btn text-light">MX-TV</a>
+        <a href="./MXPLAYER/mxmovies.html?lang=hi" class="btn text-light">MX-Movies</a>
+        <a href="./MXPLAYER/mxshows.html?lang=hi" class="btn text-light">MX-Shows</a>
+            <a href="./contact.html" class="btn bg-danger text-light">Contact</a>
+        </div>
+    </div>
+    
+
+<br>
+ <!--==================================contact==============================-->
+<div class="container-fluid" id="channels">
+<div class="row">
+
+
+
+
+    <div class="container" id="con" style="text-align: left;margin-top: .5rem;padding-top: 4rem;padding-bottom: 4rem;">
+        <h3>Contact-US</h3><br>
+      <form action="/action_page.php">
+        <label for="fname">Full Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your Full Name.." required>
+    
+        <label for="lname">Email</label>
+        <input type="email" id="mai" name="mail" placeholder="Email Address.." required>
+    
+  
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
+        <br><br>
+        <input type="submit"  class="bg-dark text-light" value="Submit" style="text-align: center;width: 100%;" required >
+      </form>
+    </div>
+
+   <!--------------------Paste New Channel Top Here-------------------------->
+
+   
+</div>
+</div>
+
+
+
+   <!-----------------------------FOOTER-------------------------->
+
+   <div class="footer bg-dark text-light">
+    <span class="text-danger">Spidyworld</span> | &nbsp; Tamplate Designed By&nbsp; <span class="text-danger">&nbsp;Maxmentor</span>    </div>
+     
+    
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.6.1.js" ></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+
+ 
+    
+    <script>
+
+$(document).ready(function(){
+  $("#search").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $(".col-sm-4").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+
+
+
+
+
+        $(document).ready(function(){
+            $("#menuimg").click(function(){
+               $("#drop").slideToggle("fast"); 
+            });
+        });
+
+    
+    </script>
+    
+</body>
+</html>

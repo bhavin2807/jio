@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>Title of the document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <input type="text" id="path" placeholder="put movie path"/>
+    <input type="submit" onclick="play();" value="Play on"/>
+    <div id="show"></div>
+    <script>
+  window.onload=function(){
+     alert('Your video player is Here');
+}
+function play(){
+    var path  = document.getElementById("path").value;
+    document.getElementById('show').innerHTML='<video id="movie" src="'+url+'" height="600px" width="1300px" controls autoplay > </video>';
+    var player =document.getElementById('movie');
+    player.load();
+    alert(''+player.duration);
+}
+    </script>
+  </body>
+</html>

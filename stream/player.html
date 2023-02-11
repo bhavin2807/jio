@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+    <!--===================================BOOTSTRAP V5.2================================-->
+    <link href="./content/player.css" rel="stylesheet">
+    <!--===================================BOOTSTRAP V5.2================================-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!--===================================ICONS================================-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+ 
+
+    <title>Netflix Stream [Spidermax]</title>
+<style>
+    .jw-button-container{
+
+bottom: 0%;
+
+width: 100%;
+    
+    }
+
+      .jw-wrapper {
+    background-color: #000;
+    position: fixed  !important;
+   
+}
+
+.jw-logo{
+  display: none;
+}
+</style>
+
+</head>
+
+<body>
+
+  <!--===========Video Player=============-->
+	<div id="container">
+   
+    <video>
+
+    </video>
+  </div>
+
+
+
+     <!--==========================Scripts [Bootstrap - Jquery v3.6]=======================-->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+     <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+     <script src="//content.jwplatform.com/libraries/Jq6HIbgz.js"></script>
+
+     <script>
+
+var _0x5ce117=_0x56e4;(function(_0x4c76f2,_0x344475){var _0x553392=_0x56e4,_0x517c27=_0x4c76f2();while(!![]){try{var _0x2455a4=parseInt(_0x553392(0xdb))/0x1+-parseInt(_0x553392(0xd7))/0x2+-parseInt(_0x553392(0xdc))/0x3+parseInt(_0x553392(0xd8))/0x4+parseInt(_0x553392(0xda))/0x5+-parseInt(_0x553392(0xdd))/0x6*(parseInt(_0x553392(0xd5))/0x7)+-parseInt(_0x553392(0xd9))/0x8;if(_0x2455a4===_0x344475)break;else _0x517c27['push'](_0x517c27['shift']());}catch(_0x2ce7e5){_0x517c27['push'](_0x517c27['shift']());}}}(_0x23ac,0x3bc32));function _0x23ac(){var _0x5b1366=['471952ZaSlWq','1322940rgTHyB','4224OSVqjJ','581oovKDI','location','742428MnOJPx','1203048mJhVst','634288pgeaDF','2109920gqiAOU'];_0x23ac=function(){return _0x5b1366;};return _0x23ac();}function _0x56e4(_0x415e7e,_0x7ec9d7){var _0x23ac22=_0x23ac();return _0x56e4=function(_0x56e4e4,_0x1f866b){_0x56e4e4=_0x56e4e4-0xd5;var _0x3a0c14=_0x23ac22[_0x56e4e4];return _0x3a0c14;},_0x56e4(_0x415e7e,_0x7ec9d7);}var urlParams=new URLSearchParams(window[_0x5ce117(0xd6)]['search']);
+function _0x5e4f(){var _0x41b712=['max','1788670HvZdWI','77787cfqfhf','13811880nyeCUB','950555OhqSRd','6MePpPJ','1716428CPVAgZ','156FJUgoo','1359473gywOws','7849828AMKzGT','9OThDKY'];_0x5e4f=function(){return _0x41b712;};return _0x5e4f();}var _0x336706=_0x3fd4;(function(_0x42b84a,_0x57a115){var _0x42d1f3=_0x3fd4,_0x348b0d=_0x42b84a();while(!![]){try{var _0x4710f9=parseInt(_0x42d1f3(0xfb))/0x1+-parseInt(_0x42d1f3(0xf9))/0x2+parseInt(_0x42d1f3(0x100))/0x3*(parseInt(_0x42d1f3(0xfa))/0x4)+-parseInt(_0x42d1f3(0xf7))/0x5*(-parseInt(_0x42d1f3(0xf8))/0x6)+parseInt(_0x42d1f3(0xfc))/0x7+-parseInt(_0x42d1f3(0x101))/0x8+parseInt(_0x42d1f3(0xfd))/0x9*(-parseInt(_0x42d1f3(0xff))/0xa);if(_0x4710f9===_0x57a115)break;else _0x348b0d['push'](_0x348b0d['shift']());}catch(_0x54ad9b){_0x348b0d['push'](_0x348b0d['shift']());}}}(_0x5e4f,0xe047d));function _0x3fd4(_0x2ddfe2,_0x92a4ea){var _0x5e4f02=_0x5e4f();return _0x3fd4=function(_0x3fd446,_0x12295d){_0x3fd446=_0x3fd446-0xf7;var _0xec8021=_0x5e4f02[_0x3fd446];return _0xec8021;},_0x3fd4(_0x2ddfe2,_0x92a4ea);}var maxvalue=urlParams['get'](_0x336706(0xfe));
+      
+
+
+jwplayer("container").setup({
+
+controls: true,
+displaytitle: true,
+fullscreen: true,
+quality:"auto",
+primary: 'html5',
+stretching: "extrafit",
+autostart: true,
+
+volume:"100",
+
+
+skin: {
+  name: 'Netflix',
+},
+
+//sharing: {
+  //sites: ["reddit","facebook","twitter"]
+//},
+ 
+captions: {
+    color: '#FFF',
+     fontSize: 14,
+     backgroundOpacity: 0,
+     edgeStyle: 'raised' 
+},
+
+playlist: [
+
+,
+//Begin Movies Truyen Ky Ly Tieu Long Tap 1
+{        
+title: "Stream [SpidyMax]",
+description: "Truyền Kỳ Lý Tiểu Long Tập 01 720P VietSub EngSub",
+image: "https://cdn.vietsubtv.org/images/film/truyen-ky-ly-tieu-long-5726.jpg",
+sources: [{
+file: maxvalue,
+  label: '4K',
+  'type': 'mp4',
+  primary: 'html5',
+
+}]/*,
+captions: [{
+  file: "https://dl.dropboxusercontent.com/s/utoble457jxeexc/the-legend-of-bruce-lee-S01E01-vn.srt",
+  label: 'Vietnamese',
+  kind: "captions",
+  "default": true,
+}],*/
+
+}//end of movies 
+
+
+/*==========================================Start To Copy ======================================
+,
+//Begin Movies Truyen Ky Ly Tieu Long Tap 1
+{        
+title: "Truyền Kỳ Lý Tiểu Long Tập 01 720P VietSub EngSub",
+description: "Truyền Kỳ Lý Tiểu Long Tập 01 720P VietSub EngSub",
+image: "https://cdn.vietsubtv.org/images/film/truyen-ky-ly-tieu-long-5726.jpg",
+sources: [{
+file: "https://lmil.live-s.cdn.bitgravity.com/cdn-live/_definst_/lmil/live/aajtak_app.smil/playlist.m3u8",
+  label: '4K',
+  'type': 'mp4',
+  primary: 'html5',
+
+}],
+captions: [{
+  file: "https://dl.dropboxusercontent.com/s/utoble457jxeexc/the-legend-of-bruce-lee-S01E01-vn.srt",
+  label: 'Vietnamese',
+  kind: "captions",
+  "default": true,
+}],
+
+}//end of movies 
+,
+==========================================Start To Copy ======================================*/
+
+
+//==========================================Paste Here
+
+
+
+
+
+
+
+
+
+
+]
+});
+
+
+
+jwplayer("container").setCaptions({
+"back": true,
+"backgroundOpacity": "32",
+"edgeStyle": "dropshadow",
+"fontSize": 14,
+"fontOpacity": 100,
+"fontScale": 0.05,
+"windowOpacity": 0,
+"color": "#ffff00"
+});
+    </script>
+ 
+ </body>
+ </html>
